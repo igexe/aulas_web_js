@@ -1,0 +1,45 @@
+<!--tag table estabelece bloco da tabela-->
+<!--tag tr define uma linha-->
+<!-- tag td celula da tabela -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tabelas</title>
+
+</head>
+<body>
+
+	<header><h2>Praticando com tabelas</h2></header>
+
+	<table border="1">
+		<tr>
+			<td>
+				col1, lin1
+			</td>
+			<td rowspan="2">col2</td>
+		</tr>
+		<tr>
+			<td>
+				col1, lin2
+			</td>
+		</tr>
+		<tr><td colspan="2">lin3</td></tr>
+	</table>
+
+</body>
+</html>
+
+<!--parametro border passado em table faz uma borda entre as celulas da tabela -->
+<!-- 
+alguns parametros para tag td são:
+colspan == cria uma unica celula com espaço de celulas especificado
+rowspan == cria uma unica celula com tamanho de coluna especificado
+ -->
+
+ <!--tag th cria colunas de cabeçalho para tabela-->
+ <!--tag tfoot cria um roda pe que ira sempre ficar ao fim da tabela-->
+ <!--tag tbody cria um corpo para a tabela, onde colocamos o resto das celulas-->
