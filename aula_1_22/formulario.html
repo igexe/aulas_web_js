@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>campos de texto</title>
+
+</head>
+<body>
+
+	<form method="post" action="#">
+		Meu nome é: <input type="text" name="meu_nome" value="Inácio" readonly><br>
+		Qual seu nome? <input type="text" name="nome" placeholder="Insira seu nome" required><br>
+		Campo em reforma: <input type="text" name="reforma" placeholder="campo desabilitado por hora em questão de reforma" disabled><br>
+		Passa seu CPF: <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}"><br>
+		Fala uma senha pra mim: <input type="password" name="senha"><br>
+		<!--tag textarea permite que se crie um input que tenha mais de uma linha-->
+		Me descreva como você é: <textarea name="descricao"></textarea>
+	</form>
+
+
+</body>
+</html>
+
+<!--
+parametros para textarea:
+autofocus == foca campo ao entrar na pagina
+cols == define quantas colunas vai ter na exibição
+disabled == desabilitado
+maxlength == quantidade de caracteres
+name == nome do campo
+placeholder == texto de exemplo
+readonly == apenas leitura
+required == obrigatorio
+rows == define quantas linhas vai ter na exibição
+wrap == quebra de linhas
+-->
+
+
+<!--tag input permite com que se coloque um campo de para o usuario digitar, seguido pelo atributo type de entrada do campo-->
+
+<!--
+alguns outros atributos para tag input são:
+autocomplete == auto completa o campo com informações salvas
+autofocus == foca no campo ao entrar na pagina
+disable == desabilita campo não recebendo input
+max == define valor maximo de um número
+maxlength == define quantidade de caracteres do campo
+min == define valor minimo de um número
+name == define um nome ao campo
+pattern == define o padrão do elemento
+placeholder == informação descrita no campo
+readonly == campo apenas de leitura
+required == campo obrigatorio
+size == largura do campo em px ou %
+type == tipo do texto
+value == valor definido no campo
+-->
+
+<!--tag form define bloco respectivo ao formulario utilizando 2 atributos, action que diz para onde vai os dados do formulario, method informa por qual metodo vai ser enviado seja post ou get-->
+
+<!--usando method get toda informação é enviada atravez do navegador ficando no historico do navegador metodo post passa diretamente pela rede não deixando visivel a ninguem que não seja o receptor-->
+
+<!--
+alguns parametros que se pode utilizar em form são:
+action == para onde vão ser enviados os dados
+autocomplete == facilita com que os navegadores armazenem os dados para que facilite na hora de preencher os campos
+enctype == permite que formularios enviem arquivos
+method == qual metodo sera utilizado para o method
+name == permite dar nome ao formulario
+novalidate == não valida dados do formulario
+target == informa se o formulario ira enviar a outra aba ou ira permanecer na mesma aba
+-->
