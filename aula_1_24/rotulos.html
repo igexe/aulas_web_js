@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>rotulos e agrupamento de campos</title>
+
+</head>
+<body>
+
+	<form action="post">
+		<fieldset>
+			<legend>Fale sobre você</legend>
+			Nome: <input type="text" name="nome"><br>
+			Idade: <input type="text" name="idade"><br>
+			Agora me diga você é um menino ou uma menina:<hr>
+			<label for="menino">Menino</label><input type="radio" name="sexo" id="menino" value="menino"><br>
+			<label for="menina">Menina</label><input type="radio" name="sexo" id="menina" value="menina">
+		</fieldset>
+	</form>
+
+</body>
+</html>
+
+<!--tag label cria um rotulo normalmente utilizado com inputs do tipo radio-->
+
+<!--a tag label recebe o parametro for referente ao id do item ao qual o mesmo é vinculado-->
+
+<!--
+já dentro de um radio button temos os itens:
+name == nome do grupo do radio button
+id == identificador unico do vabel
+value == valor enviado pelo formulario ao enviar os dados
+-->
+
+<!--colocando for dentro da tag label faz uma ligação direta entre o label e o radio button fazendo que quando clicado no label marque o radio button especificado em for-->
+
+<!--o atributo for dentro de label também permite foco em campos ligados ao label pelo for-->
+
+<!--tag fieldset delimita area dos dados agrupando eles contemplando todos os elementos dentro de seu bloco-->
+
+<!--tag legend identifica o conjunto de dados em fieldset-->
