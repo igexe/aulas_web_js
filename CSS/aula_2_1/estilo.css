@@ -1,0 +1,25 @@
+body{
+	/*aqui estamos fazendo com que o texto dentro de body fique em vermelho*/
+	color: red;
+
+	/*modificação de fonte*/
+	font-family: Verdana;
+}
+
+/*para referenciar ids colocamos o sinal '#' antes do id depois passamos a formatação do elemento*/
+#id1{
+	font-size: 24px;
+}
+
+/*para classes colocamos o sinal '.' antes do nome da classe e passamos a formatação para todos os elementos da mesma classe*/
+.class1{
+	font-size: 10px;
+}
+
+#informacao{
+	color: blue;
+	font-weight: bold;
+}
+
+/*diferente de quando passado na tag style em um arquivo css podemos passar apenas a tag afetada e sua estilização*/
+/*quando utilizamos de ids e classes para formatação o elemento recebe a formatação feita para os 2*/
