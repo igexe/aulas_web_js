@@ -1,0 +1,72 @@
+/*tag "p" faz formatação para estruturas de paragrafos*/
+
+p{
+	/*definindo tipo de letra*/
+	font-family: Arial; 
+
+	/*definindo tamanho das letras pode ser definido em px (pixels) ou pt (pontos)*/
+	font-size: 12pt;
+
+	/* definindo espaçamento entre letras */
+	letter-spacing: 0.5em;
+
+	/* definindo alinhamento de texto podendo ser left, right, center, justify */
+	text-align: justify;
+}
+
+/*
+Unidades de medida no css são divididas em duas categorias:
+	
+	RELATIVO
+		relativas ao tamanho da janela em navegador sendo:
+			%
+			em
+			ex
+			px
+
+	ABSOLUTO
+		sempre tera o tamanho definido não modificando pelo tamanho da janela do navegador
+			in
+			cm
+			mm
+			pt
+			pc
+*/
+
+/* para editar classes usamos .nome_classe */
+
+/* nem todos os navegadores conseguem utilizar alguns tipos de decoração de texto */
+
+.inferior{
+	text-decoration: underline;
+}
+
+.superior{
+	text-decoration: overline;
+}
+
+.centro{
+	text-decoration: line-through;
+}
+
+.pisca{
+	text-decoration: blink;
+}
+
+/* algo que podemos fazer também é indicar recuo de paragrafos podemos utilizar text-ident */
+/* para definir fontes sem serifa podemos utilizar "sans-serif" em font-family */
+
+h1{
+	font-family: sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+
+	/* adiciondo sombra a escrita, parametros: cor, distancia da letra, recuo em  relação a margem principal, grossura da letra */
+	text-shadow: blue 5px 6px 2px;
+
+	/* faz com que cada letra inicial seja em maiusculo */
+	text-transform: capitalize;
+}
+
+/* algo que podemos fazer também é não permitir a quebra de linha a partir de "white-space: nowrap;" */
+/* espaçamento entre palavras "word-spacing: tamanho"*/
