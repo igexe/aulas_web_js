@@ -1,0 +1,32 @@
+/* 
+podemos formatar links pelo nosso arquivo CSS 
+podemos no CSS referenciar o link de três formas:
+	* a [tag interna do html]
+	* utilizando o identificador
+	* utilizando a class
+
+ao utilizar o CSS para formatar nosso link podemos utilizar alguns parametros para algumas ações diferentes
+	* a:link [age diretamente no link]
+	* a:visited [quando o link já tenha sido visitado]
+	* a:hover [quando o mouse estiver acima do link]
+	* a:active [quando o link esta ativo]
+*/
+
+a:link {
+	color: #000000;
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+}
+
+a:visited{
+	background-color: #616569;
+	color: blue;
+}
+
+a:active{
+	background-color: #82caff;
+	color: black;
+}

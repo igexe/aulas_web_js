@@ -1,0 +1,51 @@
+body{
+	background: #cbc1ae;
+}
+
+h2{
+	color: #ff2c2c;
+}
+
+/*
+quando editando a tag ul [unordenade list] podemos modificar um pouco mais do que apenas o texto
+para modificar o icone ao lado do item podemos passar [list-style-image: url()]
+e [list-style-position] que ajusta a posição dos icones sendo outside mais proximo a borda a pagina e inside com um espaço
+
+*/
+
+ul{
+	font-size: 15pt;
+	color: #765341;
+	list-style-image: url(cookies.png);
+	list-style-position: inside;
+}
+
+/*
+
+também podemos adicionar diferentes imagens utilizando classes e ids dentro da tag dos nossos itens
+
+*/
+
+/*
+
+podemos modificar os marcadores de itens no css com [list-style-type: tipo;]
+	tipos de marcação:
+		disc
+		circle
+		square
+		decimal-leading-zero
+		lower-roman
+		upper-roman
+		lower-alpha
+		upper-alpha
+		lower-greek
+		lower-latin
+		upper-latin
+		armenian
+		georgian
+		hebrew
+		hiragana
+		katakana
+		hiragana-iroha
+		katakana-iroha
+*/

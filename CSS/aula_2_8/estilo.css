@@ -1,0 +1,10 @@
+/*
+a especificação de dispositivos dentro do css se divide em alguns tipos
+	para todos os dispositivos:
+		inserido no inicio em body
+
+	dependendo do tipo de midia e tamanho podemos usar a seguinte forma
+		@media screen and (max-width:600px){
+			configs
+		}
+*/
